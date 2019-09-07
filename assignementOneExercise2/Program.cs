@@ -51,10 +51,12 @@ namespace assignementOneExercise2
             Debug.WriteLine($"Series till n= {N} terms is: ", N);
             Debug.WriteLine(seriesliststring);
             p = "Learnings and Recommendations for exercise 2:\n";
+            Debug.WriteLine(p);
             p = p + "1. List operations is very helpful coding knowledge to manage with lesser lines of code\n";
             p = p + "2. Printing List has some iteration logic, sometimes converting to string and printing is easier and serves the purpose\n";
             p = p + "3. While dealing with Multiple loops, writing the comments for each loops purpose helps to easily debug later\n";
             p = p + "4. It is recommended to practice more on List and Array operations, as these seem important for interviews";
+            Debug.WriteLine(p);
         }
     }
 }
